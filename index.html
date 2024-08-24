@@ -31,8 +31,8 @@
     }
     </script>
 </head>
-<body class="font-manrope max-w-[1440px] container mx-auto pt-[35px] md:pt-[45px] lg:pt-[67px]">
-    <header class="px-[20px] md:px-[32px] lg:px-[50px] xl:px-[135px]">
+<body class="font-manrope max-w-[1440px] container mx-auto">
+    <header class="px-[20px] md:px-[32px] lg:px-[50px] xl:px-[135px] bg-gradient-to-b from-gray-100 to-white pt-[35px] md:pt-[45px] lg:pt-[67px]">
             <div class="navbar flex justify-between">
                 <div>
                     <a href="#">
@@ -83,7 +83,7 @@
                   <h1 class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold text-color-four text-center">
                     A barn house of this design has a striking appearance
                   </h1>
-                  <p class="py-4 lg:py-6 text-sm md:text-[16px] text-center text-[#494949] font-medium lg:w-[975px] mx-auto">
+                  <p class="py-4 lg:py-6 text-sm md:text-[16px] text-center text-[#494949] font-medium lg:w-[875px] xl:w-[975px] mx-auto">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                   </p>
                   <button class="w-[97%] md:w-auto md:px-6 py-[10px] bg-color-two flex gap-2 rounded-[32px] mx-auto border border-[#ABEF5F]">
@@ -96,5 +96,37 @@
               </div>
             </div>
     </header>
+    <!-- main section -->
+    <main class="px-[20px] py-[32px] md:px-[32px] md:py-[72px] lg:px-[80px] lg:py-[80px] xl:px-[135px] xl:py-[100px] bg-gray-100 mt-10 md:mt-[70px] lg:mt-[100px] xl:mt-[120px] relative">
+      <div class="absolute hidden lg:flex lg:top-[28px] lg:left-[87px]"><img src="assets/top.png" alt=""></div>
+      <section class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9">
+        <div>
+            <button class="px-4 py-2 bg-white rounded-[24px] flex items-center mx-auto lg:mx-0">
+              <i class="fa-solid fa-arrow-right"></i>
+              <p class="inline ml-[5px] text-[#494949] font-bold">About Us</p>
+            </button>
+          <h1 class="mt-4 text-[24px] font-bold text-color-four text-center md:text-[32px] lg:text-[40px] lg:text-left">We design thoughtful, liveable spaces</h1>
+          <p class="text-sm text-center mt-4 font-medium text-[#494949] md:text-base md:mt-6 lg:text-left">The barn house captivates with its blend of rustic charm and 
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <div class="p-5 md:p-6 flex gap-5 bg-white rounded-[16px] mt-6">
+            <div><img src="assets/commercial.png" alt=""></div>
+            <div>
+              <h3 class="md:text-[20px] font-extrabold">Commercial</h3>
+              <p class="text-[#737373]">Boost your business with our innovative solutions, tailored to drive growth and efficiency.</p>
+            </div>
+          </div>
+          <div class="p-5 md:p-6 flex gap-5 bg-white rounded-[16px] mt-4 md:mt-6">
+            <div><img src="assets/residential.png" alt=""></div>
+            <div>
+              <h3 class="md:text-[20px] font-extrabold">Residential</h3>
+              <p class="text-[#737373]">Transform your home with our premium, customized living solutions for ultimate comfort.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-6 lg:mt-0">
+          <img class="h-[230px] w-[100%] rounded-[16px] md:h-[385px] lg:h-full" src="assets/main.png" alt="">
+        </div>
+      </section>
+    </main>
 </body>
 </html>
