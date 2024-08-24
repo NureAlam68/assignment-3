@@ -18,8 +18,10 @@
               colors: {
                 clifford: '#da373d',
                 'color-one': '#ABEF5F',
-                'color-two': '#ABEF5F33',
+                'color-two': '#ABEF5F80',
                 'color-three': '#1C1C1C',
+                'color-four': '#212121',
+                'color-five': '#ABEF5F33',
               },
             fontFamily: {
                 manrope:['Manrope', 'sans-serif']
@@ -47,7 +49,7 @@
                     <li class="text-[#737373]"><a href="#">Contact Us</a></li>
                   </ul>
                 </div>
-                <div class="flex gap-2">
+                <div class="flex gap-4">
                   <div class="dropdown hidden md:flex">
                     <div tabindex="0" role="button" class="icon-bg flex justify-center items-center">
                       <i class="fa-solid fa-magnifying-glass text-xl"></i>
@@ -70,6 +72,28 @@
                     </div>
                   </div>
                 </div>
+            </div>
+            <!-- hero section -->
+            <div class="hero mt-9 lg:mt-[50px]">
+              <div class="grid grid-cols-1">
+                <div class="mx-auto px-[30px]">
+                  <img src="assets/banner.png" alt="">
+                </div>
+                <div class="mt-4 lg:mt-6">
+                  <h1 class="text-[28px] md:text-[36px] lg:text-[64px] font-extrabold text-color-four text-center">
+                    A barn house of this design has a striking appearance
+                  </h1>
+                  <p class="py-4 lg:py-6 text-sm md:text-[16px] text-center text-[#494949] font-medium lg:w-[975px] mx-auto">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                  </p>
+                  <button class="w-[97%] md:w-auto md:px-6 py-[10px] bg-color-two flex gap-2 rounded-[32px] mx-auto border border-[#ABEF5F]">
+                    <div class="flex mx-auto gap-2">
+                      <div class="text-xl font-bold text-color-four">View Details</div>
+                      <div class="w-[32px] bg-color-one rounded-[32px] h-[32px] flex"><i class="fa-solid fa-arrow-right text-color-three rounded-[32px] mx-auto my-auto -rotate-45"></i></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
             </div>
     </header>
 </body>
